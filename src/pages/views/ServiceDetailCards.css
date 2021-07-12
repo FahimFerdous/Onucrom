@@ -1,0 +1,22 @@
+.serviceIcon {
+  padding: 5px;
+  font-size: 24px;
+  color: #ff5500;
+}
+.serviceHeading {
+  font-size: 18px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.serviceDetails1 {
+  padding-left: 4%;
+
+  font-size: 16px;
+  font-weight: 550;
+}
+.serviceDetails2 {
+  padding-left: 4%;
+
+  font-size: 14px;
+  padding-bottom: 2%;
+}

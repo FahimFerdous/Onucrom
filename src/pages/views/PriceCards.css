@@ -1,0 +1,27 @@
+.wholeArea {
+  background-color: #f9f9f9;
+}
+
+.centerItems {
+  text-align: center;
+}
+
+.boldInfo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bonus-details-area {
+  padding: 0px 0px;
+  border: 0px;
+  background-color: #f9f9f9;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+
+.moreText {
+  text-align: center;
+  color: var(--main-color);
+  margin-top: 20px;
+  font-size: 18px;
+}

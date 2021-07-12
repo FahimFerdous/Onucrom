@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.dashboard-page-bg-innerSection {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  position: relative;
+}
+.userStyle1 {
+  display: block;
+}
+.dashboard-span {
+  cursor: pointer;
+}
+
+.dashboard-page-title {
+  color: #ffffff;
+
+  text-transform: uppercase;
+  font-size: 40px;
+
+  padding-top: 10%;
+
+  margin-bottom: -25px;
+}
+.dashboardImage {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border-color: antiquewhite;
+  border-width: 1px;
+  border-style: dashed;
+}
+.profilelabel {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 30px;
+}
+.profiledata {
+  color: #ff5500;
+  padding-top: 1%;
+  font-size: 15px;
+}
+.blog-item.blog-list {
+  padding: 15px 10px 0px 35px;
+}
+.updateprofilebutton {
+  cursor: pointer;
+  color: var(--main-color);
+  text-transform: uppercase;
+  padding: 7px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  background-color: rgb(240, 243, 252);
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+}
+
+.useractivityTitle {
+  background-image: -webkit-linear-gradient(
+    108deg,
+    rgb(59, 38, 219) 14%,
+    rgb(123, 25, 203) 100%
+  );
+}
+
+.useractivityTitle2 {
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(228, 91, 45) 0%,
+    rgb(240, 121, 33) 33%,
+    rgb(252, 151, 21) 100%
+  );
+}
+
+.search-box {
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(1, 132, 255) 1%,
+    rgb(1, 171, 255) 100%
+  );
+  height: 44px;
+  border-radius: 40px;
+  padding: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0px 15px;
+  transform: 0.4s;
+}
+
+.search-box:hover > .header-SearchBar {
+  color: white;
+}
+
+.search-txt {
+  background: none;
+  border: none;
+  outline: none;
+  width: 0px;
+  transition: 0.4s;
+  padding: 0;
+  color: white;
+  line-height: 40px;
+  float: left;
+  font-weight: bold;
+}
+
+.header-SearchBar {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: 0.4s;
+}
+.DashboarsdIntroText {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 2px;
+  color: brown;
+}
+
+.blog-section .tab-content {
+  margin-top: 20px;
+}
+
+.professionLabel {
+  flex: 0.5;
+  font-size: 18px;
+
+  padding: 0px 40px;
+}
+
+.professionFormLebel {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.profilelabel .profiledata {
+  float: right;
+}
+
+.professionLabel .profiledata {
+  float: right;
+}
+
+hr {
+  border-top: 2px solid rgb(243 104 6 / 10%);
+}
+
+.promoBg {
+  background-image: -webkit-linear-gradient(
+    -46deg,
+    rgb(127, 48, 254) 0%,
+    rgb(88, 164, 252) 100%
+  );
+}
+.promoText {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.promoselectionButton {
+  cursor: pointer;
+}
+
+.servicesHeadingText {
+  font-size: 20px;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-weight: 600;
+}
+.serVicecontent {
+  padding: 1% 3%;
+}
+
+.custom_checkbox2 {
+  padding-left: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.serviceCheckbox {
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  width: auto;
+}
+
+.serviceCheckBoxLabel {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  padding: 10px;
+}
+
+.fp-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  background: #f8f8f8cc;
+}
+.fp-container .fp-loader {
+  top: 40%;
+  left: 48%;
+  z-index: 999999999999999;
+  position: absolute;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
